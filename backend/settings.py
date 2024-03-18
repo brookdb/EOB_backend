@@ -140,6 +140,7 @@ MEDIA_URL = '/media/'
 CORS_ALLOWED_ORIGINS = [
   "http://localhost:3000",
   "http://192.168.40.154:3000",
+  "https://eo-frontend-a1e439a3effc.herokuapp.com"
 ]
 CORS_ALLOW_CREDENTIALS = True
 
