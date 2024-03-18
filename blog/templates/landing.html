@@ -1,0 +1,23 @@
+{% extends 'base.html' %} {% block content %}
+
+<div class="container">
+  <div class="row">
+    <div class="card mb-4  mt-3 center  top">
+      <div class="card-body">
+        <h1>Welcome To Encanto Oculto REST API</h1>
+        <div>
+          <img src="media/main/img/magicians-map.png" />
+        </div>
+        <h3>Base Url: https://encantoocultoblog.brookdaba.repl.co/</h3>
+        <ul>
+          <li>All Posts: /api/posts</li>
+          <li>A Single Post: /api/posts/<slug:slug></li>
+          <li>All Authors: /api/authors</li>
+          <li>A Single Author: /api/authors/<slug:slug></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% endblock content %}

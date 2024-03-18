@@ -1,0 +1,8 @@
+Django
+django-cors-headers
+django-filter
+djangorestframework
+Pillow
+requests
+sqlparse
+python-dotenv
